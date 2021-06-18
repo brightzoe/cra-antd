@@ -11,6 +11,7 @@ import {
   Typography,
   Space,
   Divider,
+  Checkbox
 } from 'antd';
 import './App.less';
 
@@ -60,6 +61,10 @@ const App = () => (
       </Form.Item>
       <Form.Item label="评分">
         <Rate defaultValue={5} />
+      </Form.Item>
+      <Form.Item label="多选框">
+      <Checkbox id="monitor-checkbox"></Checkbox>
+
       </Form.Item>
       <Form.Item wrapperCol={{ span: 8, offset: 8 }}>
         <Space>
